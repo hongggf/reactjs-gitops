@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: docker.io/hong16/reactjs-devop8-template:766e190c98c631585917e3a25ab3d258eeeb50a2
+          image: docker.io/hong16/reactjs-devop8-template:907f140362975e6c14b83c28a62a3212b70debf9
           ports:
             - containerPort: 3000
           readinessProbe:
